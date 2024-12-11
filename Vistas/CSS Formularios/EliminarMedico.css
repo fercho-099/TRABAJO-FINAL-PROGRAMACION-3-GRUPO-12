@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#form1 {
+    width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+form input[type="text"],
+form select,
+form button,
+form input[type="submit"] {
+    margin-bottom: 5px;
+    width: 15%;
+    padding: 8px;
+}
+
+form asp\:button {
+    margin-bottom: 5px;
+    width: 30%;
+    padding: 8px;
+}
+
+#btn_eliminarmedico{
+    transition: all 0.3s ease 0s;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+    #btn_eliminarmedico:hover {
+        transform: scale(1.1);
+        background-color: #ccc;
+    }

@@ -1,0 +1,53 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btnIngresarMedico {
+    transition: all 0.3s ease 0s;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+    #btnIngresarMedico:hover {
+        transform: scale(1.1);
+        background-color: #ccc;
+    }

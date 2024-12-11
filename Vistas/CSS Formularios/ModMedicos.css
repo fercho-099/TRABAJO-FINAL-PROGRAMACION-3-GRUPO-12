@@ -1,0 +1,47 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tabla del GridView */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    table th, table td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Estilo de las cabeceras */
+    table th {
+        background-color: te;
+   ;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Alternar color de las filas */
+    table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #ffffff;
+    }
+
+    /* Cambiar el color al pasar el mouse */
+    table tr:hover {
+        background-color: #f1f1f1;
+    }
